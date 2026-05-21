@@ -15,19 +15,51 @@ https://github.com/Masriyan/gemini-security-skills
 
 ## What is included
 
-This repository contains 12 skills:
+This repository contains 24 skills, grouped below.
 
-- `go-programming`: Build, debug, test, and review idiomatic Go systems.
-- `python-programming`: Build, test, type, package, and maintain Python code.
-- `assembly-programming`: Read, write, explain, and debug low-level assembly.
+### Cyber security automation (Gemini-driven)
+
+- `gemini-tool-orchestrator`: Translate natural-language intent into safe,
+  scoped pipelines of nmap, nuclei, ffuf, semgrep, trivy, and friends.
+- `ai-redteam`: Evaluate prompt injection, jailbreak, tool abuse, agent
+  hijack, and RAG poisoning on LLM and agent systems you own.
+- `threat-intel-fusion`: Collect, normalize, enrich, dedupe, and prioritize
+  IOCs and actor profiles into STIX, Sigma, YARA, and blocklists.
+- `cloud-security-automation`: AWS, Azure, GCP posture, IaC scanning, and
+  drift-and-fix workflows shipped as code, not console clicks.
+- `detection-engineering`: Author and tune Sigma, YARA, Suricata, KQL, SPL,
+  and EQL detections with ATT&CK coverage and tests.
+- `kubernetes-security`: Cluster hardening, admission control with
+  Gatekeeper/Kyverno, runtime defense, and signed-image supply chain.
+- `purple-team-automation`: Link Atomic Red Team, Caldera, and Stratus
+  emulation to detection validation and coverage scoring.
+- `osint-recon-automation`: Passive recon, asset graphing, and exposure
+  monitoring for authorized scopes only.
+- `api-security-automation`: REST, GraphQL, and gRPC assessment covering
+  OWASP API Top 10, JWT abuse, BOLA, mass assignment, and replay.
+- `forensics-triage`: DFIR across disk, memory, network, cloud, and
+  identity with defensible timelines and chain of custody.
+- `bug-bounty-workflow`: Scope-aware recon, dedupe, and high-signal
+  reporting for HackerOne, Bugcrowd, Intigriti, and YesWeHack.
+- `smart-contract-audit`: Solidity, Vyper, and Move audit with Slither,
+  Foundry, Echidna, invariants, MEV, and bridge risk.
+
+### Core security
+
 - `offensive-security`: Plan authorized offensive security assessments.
-- `exploit-development`: Analyze lab vulnerabilities and safe proof of concept
-  workflows.
+- `exploit-development`: Analyze lab vulnerabilities and safe proof of
+  concept workflows.
 - `malware-reverse-engineering`: Triage suspicious artifacts and produce
   defensive findings.
 - `devsecops`: Harden CI/CD, infrastructure, containers, and releases.
 - `soc-operations`: Triage alerts, hunt threats, and produce incident notes.
 - `cybersecurity-partner`: Act as a practical security reviewer and advisor.
+
+### Engineering and language
+
+- `go-programming`: Build, debug, test, and review idiomatic Go systems.
+- `python-programming`: Build, test, type, package, and maintain Python code.
+- `assembly-programming`: Read, write, explain, and debug low-level assembly.
 - `prompt-enhancement`: Improve prompts, task specs, and agent instructions.
 - `multilingual`: Translate, localize, and improve multilingual content.
 - `claude-mythos-emulation`: Create Claude-like assistant behavior specs

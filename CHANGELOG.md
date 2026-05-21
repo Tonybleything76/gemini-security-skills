@@ -2,6 +2,42 @@
 
 All notable changes to Gemini Security Skills are documented here.
 
+## 2.0.0 - 2026-05-21
+
+Added 12 new cyber security automation skills focused on driving security
+workflows through Gemini with guardrails and evidence-backed output:
+
+- `gemini-tool-orchestrator`: Natural-language pipelines over nmap, nuclei,
+  ffuf, semgrep, trivy, and other CLI tools with stage-gated execution.
+- `ai-redteam`: LLM and agent red-teaming for prompt injection, jailbreak,
+  tool abuse, agent hijack, and RAG poisoning with defensive deliverables.
+- `threat-intel-fusion`: Multi-source IOC fusion, STIX normalization,
+  KEV/EPSS-aware prioritization, and actor profiling.
+- `cloud-security-automation`: AWS/Azure/GCP CSPM and IaC scanning with
+  least-privilege diffs and drift-and-fix workflows.
+- `detection-engineering`: Sigma/YARA/KQL/SPL rule authoring with ATT&CK
+  coverage and tested-by-default discipline.
+- `kubernetes-security`: Cluster hardening, admission control, runtime
+  defense, and signed-image supply chain.
+- `purple-team-automation`: Adversary emulation tied to detection validation
+  and coverage scoring.
+- `osint-recon-automation`: Passive recon and exposure monitoring with
+  asset graphs and snapshot diffs.
+- `api-security-automation`: REST/GraphQL/gRPC testing across OWASP API
+  Top 10 with HAR-backed reproductions.
+- `forensics-triage`: DFIR across disk, memory, network, cloud, and
+  identity with defensible timelines and chain of custody.
+- `bug-bounty-workflow`: Scope-aware bounty engagement with deduplication
+  and high-signal reporting.
+- `smart-contract-audit`: Solidity/Vyper/Move audit with invariants,
+  economic review, and MEV/oracle/bridge coverage.
+
+Changed:
+
+- Updated `gemini-extension.json` to version `2.0.0` with an expanded
+  description covering the full skill catalog (24 skills total).
+- Updated `README.md` and `docs/skill-catalog.md` to group skills by domain.
+
 ## 1.0.0 - 2026-05-09
 
 Initial repository release.
